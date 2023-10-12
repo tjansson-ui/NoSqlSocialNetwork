@@ -1,7 +1,8 @@
 const connection = require("../config/connection")
-const {} = require("../models")
-const userData = require("")
-const thoughtData = require("")
+const { User, Thought } = require("../models")
+
+const userData = require("./userData.json")
+const thoughtData = require("./thoughtData.json")
 
 connection.once("open", async () => {
     try {
@@ -15,9 +16,9 @@ connection.once("open", async () => {
             const randomUser = users[randomIndex]
 
             const thoughtWithUsername = {...thought, username: randomUser.username}
-            const newThoguht = await Thought.create(thoughtWithUsername)
+            const newThought = await Thought.create(thoughtWithUsername)
 
-            await User.findbyIDAndUpdate(randomUser._id, {$push: {thoughts: newThoguht._id }})
+            await User.findbyIDAndUpdate(randomUser._id, {$push: {thoughts: newThought._id }})
         }
     
         process.exit(0)
