@@ -3,7 +3,9 @@
 ## Description
 The purpose of this application is to operate a database for a social network company uses MongoDB. 
 
-(![Code and Insomniascreenshot](Assets/Example.png))
+![Code and Insomniascreenshot](Assets/Example.png)
+
+There is a [Video Demo](https://drive.google.com/file/d/1SPxGYmr0EYE5TLTA2fDvHrS6K8nSj5XY/view?usp=sharing) hosted on Google Drive.
 
   ## Table of Contents
   * [Installation](#installation)
