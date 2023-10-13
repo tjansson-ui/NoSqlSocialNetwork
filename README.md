@@ -6,7 +6,7 @@ The purpose of this application is to operate a database for a social network co
 ![Code and Insomniascreenshot](Assets/Example.png)
 
 There is a [Video Demo](https://drive.google.com/file/d/1SPxGYmr0EYE5TLTA2fDvHrS6K8nSj5XY/view?usp=sharing) hosted on Google Drive.
-
+The repo is [here](https://github.com/tjansson-ui/NoSqlSocialNetwork)
   ## Table of Contents
   * [Installation](#installation)
   * [License](#license)
