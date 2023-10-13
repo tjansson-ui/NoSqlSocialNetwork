@@ -12,7 +12,7 @@ connection.once("open", async () => {
         await User.collection.insertMany(userData)
         await Thought.collection.insertMany(thoughtData)
 
-        
+    // Future potential changes
         // for (const thought of thoughtData) {
         //     const randomIndex = Math.floor(Math.random * users.length)
         //     const randomUser = users[randomIndex]
