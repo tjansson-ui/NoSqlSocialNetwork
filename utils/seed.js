@@ -6,8 +6,8 @@ const thoughtData = require("./thoughtData.json")
 
 connection.once("open", async () => {
     try {
-        // await User.deleteMany({})
-        // await Thought.deleteMany({})
+        await User.collection.deleteMany({})
+        await Thought.collection.deleteMany({})
 
         await User.collection.insertMany(userData)
         await Thought.collection.insertMany(thoughtData)
